@@ -18,7 +18,7 @@ services:
     restart: always
 
   keycloak:
-    image: jboss/keycloak:21.0.1
+    image: quay.io/keycloak/keycloak:21.0.1
     container_name: keycloak
     environment:
       DB_VENDOR: postgres
