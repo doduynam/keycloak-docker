@@ -1,5 +1,8 @@
 version: '3.9'
 
+volumes:
+  postgres_data_keycloak:
+
 services:
   postgres:
     container_name: keycloak-postgres
