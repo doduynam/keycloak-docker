@@ -38,3 +38,4 @@ services:
     restart: unless-stopped
     volumes:
       - config_data_keycloak:/var/lib/keycloak/data
+      - ./themes/project-capstones:/opt/jboss/keycloak/themes/project-capstones
